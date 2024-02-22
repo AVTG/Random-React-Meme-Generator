@@ -9,7 +9,7 @@ function Random(){
     
     async function fetchData(){
         setLoading(true) ;
-        let url = `http://api.giphy.com/v1/gifs/random?api_key=${API_KEY}` ;
+        let url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}` ;
         const data =  await fetch(url) ;
         const output = await data.json() ;
         
