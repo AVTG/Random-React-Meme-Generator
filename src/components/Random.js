@@ -26,8 +26,8 @@ function Random(){
         
     }
      return (
-        <div className="w-1/2 py-6 max-h-max bg-green-500 rounded-md flex flex-col items-center gap-y-4">
-            <h1 className="text-3xl font-semibold underline">
+        <div className="w-11/12 max-w-[630px] py-6 max-h-max bg-green-500 rounded-md flex flex-col items-center gap-y-4 px-3">
+            <h1 className="text-3xl font-semibold underline text-center">
                 A Random GIF
             </h1>
 
