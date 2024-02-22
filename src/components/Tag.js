@@ -10,7 +10,7 @@ function Tag(){
     
     async function fetchData(){
         setLoading(true) ;
-        let url = `http://api.giphy.com/v1/gifs/random?api_key=${API_KEY}&tag=${formData.category}` ;
+        let url = `https://api.giphy.com/v1/gifs/random?api_key=${API_KEY}&tag=${formData.category}` ;
         const data =  await fetch(url) ;
         const output = await data.json() ;
         
