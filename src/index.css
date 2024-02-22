@@ -1,0 +1,44 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* css background-image generated using https://10015.io/tools/css-background-pattern-generator */
+
+.background {
+  background-image: radial-gradient(#ffffff 2.5px, transparent 2.5px),
+    radial-gradient(#ffffff 2.5px, transparent 2.5px);
+  background-size: 36px 36px;
+  background-position: 0 0, 18px 18px;
+  background-color: #b1d2ff;
+}
+
+/* css loader generated using https://10015.io/tools/css-loader-generator */
+
+.spinner {
+  width: 56px;
+  height: 56px;
+  animation: spinner-2zdk3tmd 3s infinite;
+  border-radius: 50%;
+  background-color: #474bff;
+  transform-origin: center;
+  opacity: 0;
+}
+
+@keyframes spinner-2zdk3tmd {
+  0% {
+    transform: perspective(224px) rotateY(0deg) rotateX(0deg);
+  }
+  10% {
+    opacity: 1;
+    transform: perspective(224px) rotateY(-65deg) rotateX(0deg);
+  }
+  70% {
+    opacity: 1;
+    transform: perspective(224px) rotateY(1440deg) rotateX(0deg);
+  }
+  90%,
+  100% {
+    opacity: 1;
+    transform: perspective(224px) rotateY(2880deg) rotateX(90deg);
+  }
+}
